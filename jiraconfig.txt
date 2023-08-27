@@ -1,0 +1,13 @@
+#config file for jira connection 
+#and jira worlflow description
+
+baseurl = "https://******.atlassian.net/rest/api/2/search?jql=sprint="
+sprint = "**************"
+user = "nsh**********@************"
+token = "********************"
+
+#put statuses which are belong to the jira workflow
+#please, put statuses in the order from the start-work-status to the finish-work-status   
+jira_statuses = "Open, In Progress, Blocked, Postponed, Review, Review II, Ready to Merge, Ready for Release, Resolved, In Beta, In Rollout, Done"
+done_statuses = "Ready for Release, Resolved"
+start_work_statuses = "In Progress"
